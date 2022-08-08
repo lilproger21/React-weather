@@ -1,0 +1,62 @@
+@import '../../../../styles/variables.scss';
+
+.this__day {
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    max-height: 400px;
+    background: var(#{--components-background-default});
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+}
+
+.top__block_wrapper {
+
+}
+
+.top__block {
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    svg{
+        width: 119px;
+        height: 119px;
+    }
+}
+
+.this__temp {
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 117px;
+
+    color: $primary-color;
+}
+
+.this__day_name {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: var(#{--text-color-default});
+}
+
+.bottom__block {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: $base-color;
+}
+
+.bottom__block {
+
+} 
+
+.this__time {
+    margin-bottom: 14px;
+}
+
+.this__city {
+
+}
